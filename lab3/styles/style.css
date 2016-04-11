@@ -1,0 +1,18 @@
+}
+fieldset
+{
+	width: 300px;
+	float: left;
+}
+img{
+	width: 250px; height: 250px;
+}
+li
+{
+	float: left;
+	margin-left: 150px;
+}
+table{
+	float: left;
+	margin-left: 350px;
+}
