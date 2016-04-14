@@ -6,7 +6,6 @@
 	<link href="styles/style.css" rel="stylesheet"/>
 	<meta name="description" content="Free Web tutorials"/>
 	<meta name="keywords" content="HTML,CSS,XML,JavaScript"/>
-	<meta name="author" content="Hege Refsnes"/>
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -18,53 +17,53 @@
 </head>
 
 <body>
-		<div class="container">
-			<header class="row">
-				<section class="col-sm-3">
-					<ul> 
-						<li><a href="index.html"> Hem </a></li>
+	<div class="container">
+		<header class="row">
+				<section class="col-sm-12">
+					<nav>
+						<ul> 
+								<li><a href="index.html"> Hem </a></li>
+								<li><a href="pages/Menyn.html"> Menyn </a></li>
+								<li><a href="pages/Online beställning.html"> Onlin beställning </a></li>
+								<li><a href="pages/Kvitto.html"> Kvitto </a></li>
+						</ul>
+					</nav>
 				</section>
-				<section class="col-sm-3">
-						<li><a href="pages/Menyn.html"> Menyn </a></li>
-				</section>
-				<section class="col-sm-3">
-						<li><a href="pages/Online beställning.html"> Onlin beställning </a></li>
-				</section>
-				<section class="col-sm-3">
-						<li><a href="pages/Kvitto.html"> Kvitto </a></li>
-					</ul>
-				</section>
-			</header>
-			<div class="row">
+		</header>
+		
+		<div class="row">
+			<section class="col-sm-6">
+			<fieldset> 
+				<legend>falafelrulle:</legend>  
+					<form action="/pages/Kvitto.html">
+						<img src="images/facebook.PNG"/>
+							<div>sallad,tomat,sås,persilja,falafel </div>
+							<div> 30:- </div>
+							<input type="number" required min="1" max="100"/ value="1" />
+							<input type="submit" value="beställ"/>
+					</form>
+			</fieldset>
+			<section class="col-sm-6">
+			<fieldset> 
+				<legend>kebabrulle:</legend>  
+					<form action="/pages/Kvitto.html">
+						<img src="images/bästa kebab.PNG"/>
+							<div>sallad,tomat,sås,kebab </div>
+							<div> 50:- </div>
+							<input type="number" required min="1" max="100"/ value="1" />
+							<input type="submit" value="beställ"/>
+					</form>
+			</fieldset>
+		
 			<section class="row">
-				<article class="col-sm-12">
-				<form action="pages/Onlin beställning.html">
-					<input type="submit" class="online" value="BÄSTELL ONLINE">
+					<article class="col-sm-12">
+						<form action="pages/Onlin beställning.html">
+						<input type="submit" class="online" value="BESTÄLL ONLINE">
+						</form>
+					</article>
 			</section>
 		</div>
 </body>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
 		<footer>
 				<ul>
