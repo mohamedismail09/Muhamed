@@ -10,8 +10,6 @@ div{
 	float: left;
 	display:inline-block;
 }
-body{
-	background-color: black;
 }
 li a{
 	display: block;
