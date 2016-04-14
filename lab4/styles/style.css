@@ -1,0 +1,21 @@
+footer{
+	float: left
+}
+li{
+	width: 300px;
+	float: left;
+}
+div{
+	width: 300px;
+	float: left;
+}
+
+.online{
+	position: relative;
+	top: 200px;
+	left: 550px;
+}
+body{
+	background-color: black;
+}
+h
