@@ -2,10 +2,12 @@ footer{
 	float: left;
 	display: inline;
 	margin-right: 500px;
+	background-color: below;
 	}
 fieldset{
-	width: 300px;
+	width: 375px;
 	float: left;
+	float: right;
 	}
 img{
 	width: 250px; height: 250px;
@@ -21,6 +23,16 @@ ul li{
 	margin-left: auto;
 	margin-right: auto;
 }
+:link:hover{
+	background: gold;
+}
 body{
-	background-color: green;
+	background: green;
+}
+header { 
+	background-color: blue; 
+}
+h2{
+	float: left;
+	width: 500px;
 }
