@@ -1,7 +1,7 @@
 footer{
 	float: left;
 	display: inline;
-	margin-right: 500px;
+	margin-right: 75px;
 	background-color: below;
 	}
 fieldset{
@@ -23,16 +23,19 @@ ul li{
 	margin-left: auto;
 	margin-right: auto;
 }
+.online:hover{
+	background: green;
+}
 :link:hover{
 	background: gold;
 }
 body{
-	background: green;
+	background-color: lightyellow;
 }
 header { 
-	background-color: blue; 
+	background-color: lightgreen; 
 }
-h2{
+h1{
 	float: left;
-	width: 500px;
+	width: 350px;
 }
