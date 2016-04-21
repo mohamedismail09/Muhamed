@@ -39,6 +39,15 @@ h1{
 	float: left;
 	width: 350px;
 }
-#maps{
-	float: 200px;
+aside img{
+	width: 100px; height: 80px;
+}
+figure{
+	float: left;
+	display: inline;
+	width: 350px;
+}
+header fieldset legend form{
+	float; right:
+	width; 100px:
 }
